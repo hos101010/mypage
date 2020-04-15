@@ -1,0 +1,155 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+header{
+    background-image: url("../img/header1.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+
+header h1{
+    font-family: 'Great Vibes', cursive;
+}
+
+#main_layout{
+	max-width: 1500px;
+	margin: auto;
+	margin-bottom: 3em;
+}
+
+#left_layout{
+	max-width: 890px;
+}
+
+#out{
+    width: 100%;
+    text-align: center;
+}
+
+#profile{
+    background-image: url("../img/profile.jpg");
+    background-position: center;
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    display: inline-block;
+}
+
+.download{
+	color: green;
+}
+
+#side_div{
+    width: 95%;
+	height: 95%;
+    border-radius: 21px 21px 21px 21px;
+    margin-top: -7em;
+}
+
+#about_me{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#contact{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.subject{
+    font-weight: bold;
+    max-width: 6em;
+    height: 2em;
+}
+
+.subtitle{
+    margin-top: 3em;
+    color: green;
+    text-decoration: underline;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.year{
+    margin: 15px;
+    margin-top: 30px;
+    border-bottom: 30px solid #3CB371;
+    border-right: 15px solid transparent;
+    height: 1em;
+    width: 4em;
+    color: white;
+}
+
+.double_year{
+	margin: 15px;
+    margin-top: 30px;
+    border-bottom: 30px solid #3CB371;
+    border-right: 15px solid transparent;
+    height: 1em;
+    width: 7em;
+    color: white;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.team{
+	color: mediumseagreen; 
+	margin-top:1.3em;
+}
+
+#education{
+	margin-top: 1em;
+}
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
